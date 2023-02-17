@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 50px;
+}
+
+.cat_img {
+    width: 150px;
+}
+
+.description {
+    width: 180px;
+}
+
+.card {
+    border: 1px palevioletred solid;
+    border-radius: 10px;
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+.love {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.id {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
